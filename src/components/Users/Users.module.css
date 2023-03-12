@@ -1,0 +1,62 @@
+
+
+.usersPage{
+position: relative;
+background-color: #6b88ff;
+}
+.usersPage span{
+    padding-left: 1px;
+}
+
+.users{
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatarImg{
+     object-fit: cover;
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+ }
+.followOrUnfollowBtn button{
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.rightSide{
+    flex: 1 1 auto;
+    border-radius: 20px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nameAndStatus{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+.name{
+    font-size: 20px;
+}
+.status{
+    padding-left: 30px;
+    font-size: 17px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+}

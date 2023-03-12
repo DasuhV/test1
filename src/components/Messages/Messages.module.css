@@ -1,0 +1,32 @@
+.messages{
+
+   color: black;
+   display: grid;
+   grid-template-areas:
+"d m"
+"d a";
+   grid-template-columns: 4fr 10fr;
+   grid-template-rows: 1fr  auto;
+   background-color: lightgoldenrodyellow;
+}
+
+.messages .dialogs{
+grid-area: d;
+}
+.messages .dialogs .dialog{
+   padding: 20px;
+}
+.messages .dialogs .dialog .active{
+   color: coral;
+}
+.messageItem{
+   grid-area: m;
+}
+
+.messages .message{
+   padding-top: 20px;
+}
+
+.addMessage{
+   grid-area: a;
+}

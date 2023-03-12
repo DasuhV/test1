@@ -1,0 +1,43 @@
+.profileInfo{
+
+}
+.mainPicture img{
+	object-fit: cover;
+	width: 100%;
+	max-height: 200px;
+}
+.mainInfo {
+	display:flex;
+
+}
+.profileImageContainer{
+	flex: 0 1 200px;
+}
+.profileImage{
+	padding: 5px 0px;
+	max-width: 100%;
+	object-fit: cover;
+	max-height: 100%;
+
+}
+.profileDescription{
+	flex: 1 1 auto;
+}
+
+.fullName{
+	color: mistyrose;
+	font-size: 50px;
+}
+.aboutMe{
+	padding: 10px;
+	font-size: 20px;
+}
+
+.lookingForAJob{
+	color: white;
+	font-size: 30px;
+}
+.lookingForAJobDescription{
+	padding: 10px;
+	font-size: 20px;
+}
